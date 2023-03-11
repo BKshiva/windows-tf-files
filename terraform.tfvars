@@ -1,0 +1,15 @@
+resource_group_name             = "windows-RG"
+location                        = "central India"
+virtual_network                 = "WIN-Vnet"
+vnet_address_space              = ["192.168.0.0/16"]
+subnet_name                     = "WINsubnet1"
+subnet_prefix                   = ["192.168.0.0/24"]
+network_interface_name          = "WINtest-nic"
+ip_name                         = "WINsiva-ip"
+nsg_name                        = "interfacensg"
+subnetnsg_name                  = "WINsubnet"
+vm_size                         = "Standard_DS1_v2"
+os_disk_name                    = "OS-Disk"
+disk_caching                    = "ReadWrite"
+storage_name                    = "sivakrishnateststorage1"
+windows_vm_name                 = "sivawinvm"
